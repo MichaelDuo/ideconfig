@@ -3,3 +3,6 @@
 map <leader>o :action MoveEditorToOppositeTabGroup<CR>
 " command! test <Action>(ActivateHierarchyToolWindow)
 command! Blame action Annotate
+command! Run action Run
+command! Stop action Stop
+command! Debug action Debug
