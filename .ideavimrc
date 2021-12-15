@@ -6,3 +6,4 @@ command! Blame action Annotate
 command! Run action Run
 command! Stop action Stop
 command! Debug action Debug
+command! PR action com.github.shiraji.findpullrequest.action.FindPullRequestAction
