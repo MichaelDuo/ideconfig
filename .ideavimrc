@@ -7,3 +7,6 @@ command! Run action Run
 command! Stop action Stop
 command! Debug action Debug
 command! PR action com.github.shiraji.findpullrequest.action.FindPullRequestAction
+
+Plug 'preservim/nerdtree`
+map <leader>t :NERDTree<CR>
