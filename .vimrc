@@ -16,8 +16,6 @@ set showmatch
 set hlsearch
 " enable mouse
 set mouse=a
-" reset leader key
-let mapleader = ","
 " timeout default is 1000
 set timeoutlen=1000
 
