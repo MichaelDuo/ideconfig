@@ -48,3 +48,13 @@ map <leader><leader> <Plug>(easymotion-bd-w)
 
 " gcc or gc in visual mode
 set commentary
+
+" key combination
+imap <C-h> <left>
+imap <C-l> <right>
+imap <C-k> <up>
+imap <C-j> <down>
+imap <C-b> <Esc>bi
+imap <C-w> <Esc>wwi
+imap jj <Esc>
+
