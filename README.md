@@ -1,2 +1,1 @@
 # ideconfig
-Configuration for ides
