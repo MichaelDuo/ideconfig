@@ -54,16 +54,6 @@
         "when": "viewContainer.workbench.view.explorer.enabled"
     },
     {
-        "key": "shift+cmd+b",
-        "command": "editor.action.peekImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
-    },
-    {
-        "key": "shift+cmd+f12",
-        "command": "-editor.action.peekImplementation",
-        "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
-    },
-    {
         "key": "shift+cmd+o",
         "command": "workbench.action.quickOpen"
     },
@@ -176,5 +166,14 @@
         "key": "ctrl+space",
         "command": "-workbench.action.terminal.sendSequence",
         "when": "terminalFocus && terminalShellIntegrationEnabled && !accessibilityModeEnabled && terminalShellType == 'pwsh'"
+    },
+    {
+        "key": "cmd+b",
+        "command": "editor.action.referenceSearch.trigger"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "references-view.findReferences",
+        "when": "editorHasReferenceProvider"
     }
 ]
