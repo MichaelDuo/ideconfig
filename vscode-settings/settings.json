@@ -1,0 +1,48 @@
+{
+    "workbench.colorTheme": "Gradianto Deep Ocean",
+    "editor.fontFamily": "'JetBrains Mono', 'JetBrains Mono NL', Menlo, Monaco, 'Courier New', monospace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.formatOnType": true,
+    "workbench.list.openMode": "doubleClick",
+    "explorer.autoReveal": false,
+    "window.zoomLevel": 1,
+    "vim.vimrc.enable": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "vim.leader": "`",
+    "vim.easymotion": true,
+    "vim.easymotionDimBackground": false,
+    "vim.easymotionKeys": "hklyuiopnmqwertzxcvbasdgjf",
+    "vim.useSystemClipboard": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["u"],
+        "commands": ["undo"]
+      },
+      {
+        "before": ["<C-r>"],
+        "commands": ["redo"]
+      },
+      {
+        "before": ["<leader>", "w"],
+        "after": ["<leader>", "<leader>", "<leader>", "b", "d", "w"]
+      },
+      {
+        "before": ["<leader>", "p"],
+        "commands": ["workbench.action.pinEditor"],
+        "when": "!activeEditorIsPinned"
+      },
+      {
+        "before": ["<leader>", "P"],
+        "commands": ["workbench.action.unpinEditor"],
+        "when": "activeEditorIsPinned"
+      },
+      {
+        "before": ["<leader>", "C"],
+        "commands": ["workbench.action.closeEditorsInGroup"]
+      }
+    ]
+  }
+  
