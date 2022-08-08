@@ -5,23 +5,18 @@
         "when": "canNavigateBack"
     },
     {
-        "key": "ctrl+-",
-        "command": "-workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    {
         "key": "cmd+[",
         "command": "-editor.action.outdentLines",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "cmd+f1",
+        "key": "f1",
         "command": "editor.action.showHover",
         "when": "editorTextFocus"
     },
     {
-        "key": "cmd+k cmd+i",
-        "command": "-editor.action.showHover",
+        "key": "cmd+f1",
+        "command": "editor.action.showHover",
         "when": "editorTextFocus"
     },
     {
@@ -30,18 +25,8 @@
         "when": "editorTextFocus && inDebugMode"
     },
     {
-        "key": "cmd+k cmd+i",
-        "command": "-editor.debug.action.showDebugHover",
-        "when": "editorTextFocus && inDebugMode"
-    },
-    {
         "key": "cmd+f1",
         "command": "workbench.action.showTreeHover",
-        "when": "customTreeView && listFocus && !inputFocus"
-    },
-    {
-        "key": "cmd+k cmd+i",
-        "command": "-workbench.action.showTreeHover",
         "when": "customTreeView && listFocus && !inputFocus"
     },
     {
@@ -49,17 +34,8 @@
         "command": "workbench.files.action.showActiveFileInExplorer"
     },
     {
-        "key": "shift+cmd+e",
-        "command": "-workbench.view.explorer",
-        "when": "viewContainer.workbench.view.explorer.enabled"
-    },
-    {
         "key": "shift+cmd+o",
         "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "cmd+p",
-        "command": "-workbench.action.quickOpen"
     },
     {
         "key": "shift+alt+up",
@@ -175,5 +151,10 @@
         "key": "shift+cmd+b",
         "command": "references-view.findReferences",
         "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "!editorFocus"
     }
 ]
