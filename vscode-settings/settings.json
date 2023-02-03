@@ -12,7 +12,7 @@
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "vim.vimrc.enable": false,
-  "vim.leader": "`",
+  "vim.leader": "\\",
   "vim.easymotion": true,
   "vim.easymotionDimBackground": false,
   "vim.easymotionKeys": "hklyuiopnmqwertzxcvbasdgjf",

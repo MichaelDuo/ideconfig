@@ -25,7 +25,8 @@ map Q gq
 
 
 " Find more examples here: https://jb.gg/share-ideavimrc
-let mapleader = "`"
+" let mapleader = "`"
+let mapleader = "\\"
 
 " find all webstorm actions :actionlist
 " action MoveEditorToOppositeTabGroup
@@ -46,6 +47,7 @@ map <leader>t :NERDTree<CR>
 set easymotion
 map <leader> <Plug>(easymotion-prefix)
 map <leader><leader> <Plug>(easymotion-bd-w)
+map <leader>w <Plug>(easymotion-bd-w)
 
 " gcc or gc in visual mode
 set commentary
